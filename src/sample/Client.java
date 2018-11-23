@@ -724,7 +724,8 @@ public class Client extends Application {
         return setRank(point, blockOut, emptyFlag, v, bot);
     }
     public int setRank(int point, int blockOut, boolean emptyFlag, int v, int bot){
-        if(Math.max(point-v, v) >= 5 && emptyFlag == false) return 7;
+//        if(Math.max(point-v, v) >= 5 && emptyFlag == false) return 7;
+        if(Math.max(point-v, v) >= 5 || (emptyFlag == false && point >= 5)) return 7;
         if(point == 4 && blockOut == 0 && emptyFlag == false) return 6;
         if(point == 3 && blockOut == 0){
             if(bot == HUMAN){if(emptyFlag == false || v != 0) return 5;}

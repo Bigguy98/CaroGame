@@ -63,14 +63,14 @@
     <session id="-441448273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="3" />
@@ -78,7 +78,7 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,14 +100,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="178" />
-          <entry key="java" value="12630" />
+          <entry key="java" value="12631" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="178" />
-          <entry key="JAVA" value="12630" />
+          <entry key="JAVA" value="12631" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -121,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="472" column="5" lean-forward="true" selection-start-line="472" selection-start-column="5" selection-end-line="472" selection-end-column="5" />
+            <state relative-caret-position="-107">
+              <caret line="729" column="40" lean-forward="true" selection-start-line="729" selection-start-column="40" selection-end-line="729" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1314#1446#0" />
@@ -147,9 +147,6 @@
                 <element signature="e#12183#12951#0" />
                 <element signature="e#12956#13366#0" />
                 <element signature="e#13371#14728#0" />
-                <element signature="e#15289#15508#0" />
-                <element signature="e#15513#16806#0" />
-                <element signature="e#16811#17483#0" />
               </folding>
             </state>
           </provider>
@@ -209,6 +206,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>println</find>
+      <find>setRank</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -259,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +285,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,6 +478,7 @@
       <workItem from="1542955600680" duration="2783000" />
       <workItem from="1542959472815" duration="299000" />
       <workItem from="1542974026588" duration="230000" />
+      <workItem from="1542983517607" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="hoan thien lan 1">
       <created>1542043061614</created>
@@ -492,13 +491,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55314000" />
+    <option name="totallyTimeSpent" value="55549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15082957" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15309201" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,8 +578,8 @@
     <entry file="file://$PROJECT_DIR$/src/sample/play.css" />
     <entry file="file://$PROJECT_DIR$/src/sample/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="472" column="5" lean-forward="true" selection-start-line="472" selection-start-column="5" selection-end-line="472" selection-end-column="5" />
+        <state relative-caret-position="-107">
+          <caret line="729" column="40" lean-forward="true" selection-start-line="729" selection-start-column="40" selection-end-line="729" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1314#1446#0" />
@@ -605,9 +604,6 @@
             <element signature="e#12183#12951#0" />
             <element signature="e#12956#13366#0" />
             <element signature="e#13371#14728#0" />
-            <element signature="e#15289#15508#0" />
-            <element signature="e#15513#16806#0" />
-            <element signature="e#16811#17483#0" />
           </folding>
         </state>
       </provider>
