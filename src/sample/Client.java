@@ -440,6 +440,10 @@ public class Client extends Application {
         stage.setScene(new Scene(paneMain));
     }
     public void chooseWithBot(int row,int col){
+        if(table[row][col] != -1){
+            MessageBox.show("This cell has been ticked","Please tick another");
+            return;
+        }
         buttons[row][col].setText("O");
         table[row][col] = HUMAN;
         numberOfClickedButton++;
