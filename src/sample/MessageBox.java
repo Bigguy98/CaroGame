@@ -16,7 +16,6 @@ public class MessageBox {
         Stage stage = new Stage();
         stage.setTitle(title);
         stage.setMinWidth(250);
-        stage.initModality(Modality.APPLICATION_MODAL);
         Label label = new Label();
         label.setText(message);
         label.setFont(new Font(15));
@@ -29,6 +28,6 @@ public class MessageBox {
         pane.setPadding(new Insets(15));
         Scene scene = new Scene(pane);
         stage.setScene(scene);
-        stage.show();
+        stage.showAndWait();
     }
 }

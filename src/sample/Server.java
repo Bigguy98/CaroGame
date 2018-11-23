@@ -6,14 +6,13 @@ package sample;
         import java.util.ArrayList;
 
 public class Server {
-    private ArrayList<ObjectOutputStream> clients;
+    private static ArrayList<ObjectOutputStream> clients;
     public static void main(String[] args) throws IOException {
         new Server().go();
     }
     public void go() throws IOException {
         ServerSocket serverSocket = new ServerSocket(5008);
         clients = new ArrayList<>();
-
         while(clients.size() < 2){
             Socket clientSocket = serverSocket.accept();
             ObjectOutputStream writer = new ObjectOutputStream(clientSocket.getOutputStream());
@@ -33,14 +32,10 @@ public class Server {
         }
     }
     private class ClientHandler implements Runnable {
-        private Socket socket;
         private ObjectInputStream reader;
-
         public ClientHandler(Socket socket) throws IOException {
-            this.socket = socket;
             this.reader = new ObjectInputStream(socket.getInputStream());
         }
-
         @Override
         public void run() {
             Object object;
