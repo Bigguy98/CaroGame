@@ -246,6 +246,9 @@ public class Client extends Application {
         else buttons[row][col].setText("O");
     }
     public int checkWin(){
+        if(numberOfClickedButton == 16*16){
+            tie();
+        }
         int r1 = checkNgang();
         int r2 = checkDoc();
         int r3 = checkCheo1();
@@ -334,8 +337,14 @@ public class Client extends Application {
     public void loose(){
         id = (id+1)%2;
         Platform.runLater(() ->{
-
             MessageBox.show("You loose","Result");
+            reset();
+        });
+    }
+    public void tie(){
+        id = (id+1)%2;
+        Platform.runLater(() ->{
+            MessageBox.show("Tie","Result");
             reset();
         });
     }
